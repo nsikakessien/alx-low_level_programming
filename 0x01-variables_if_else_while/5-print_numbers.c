@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
-  * main 
+  * main - Entry point
   *
   * Return: Always (Success)
- */
+  */
 int main(void)
 {
 char n;
