@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - print all possible combination                                                                                                                                      
- *                                                                                                                                                                            
- * Return: 0 success                                                                                                                                                                
- */                                                                                                                                                                           
-int main(void)                                                                                                                                                                
-{                                                                                                                                                                             
+ * main - Entry point
+ *
+ * Return: Always 0 success
+ */
+int main(void)
+{
 int digit1, digit2;                                                                                                                                                           
                                                                                                                                                                               
 for (digit1 = 0; digit1 < 9; digit1++)                                                                                                                                        
@@ -20,6 +20,7 @@ continue;
                                                                                                                                                                               
 putchar(',');                                                                                                                                                                 
 putchar(' ');                                                                                                                                                                 
-                                                                                                                                                                              
+}
+}
 return (0);
 }
